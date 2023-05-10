@@ -16,17 +16,17 @@ namespace LabAss7
             ListBox1.DataSource = towns;
             ListBox1.DataBind();
 
-            DropDownList1.DataSource = towns;
-            DropDownList1.DataBind();
+           // DropDownList1.DataSource = towns;
+            //DropDownList1.DataBind();
 
-            BulletedList1.DataSource = towns;
-            BulletedList1.DataBind();
+            //BulletedList1.DataSource = towns;
+           // BulletedList1.DataBind();
 
-            CheckBoxList1.DataSource = towns;
-            CheckBoxList1.DataBind();
+            //CheckBoxList1.DataSource = towns;
+           // CheckBoxList1.DataBind();
             
-            RadioButtonList1.DataSource = towns;
-            RadioButtonList1.DataBind();
+            //RadioButtonList1.DataSource = towns;
+            //RadioButtonList1.DataBind();
         }
 
         protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
